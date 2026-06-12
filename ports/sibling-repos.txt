@@ -1,0 +1,6 @@
+# combat hexagon wiring (driving -> this core -> driven)
+transport (feat/module-http3)  player presses          -> input_source
+zone-server                    constant-step clock     -> tick_source
+sandbox (feat/sandbox)         enemy intents           -> behavior_source
+loot                           death triggers a drop   <- event_sink
+replication                    authoritative state     <- state_sink
