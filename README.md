@@ -5,7 +5,7 @@ core resolving the three-button combo timing, hit validation, the enemy
 spawn-invulnerability window, and damage — behind narrow ports, with a Godot
 wire adapter and a recorded fixture.
 
-It follows the V-Sekai `core/` + `ports/` + `adapters/` triad
+It follows the V-Sekai `core/` + `repository/` + `adapters/` triad
 ([hexagonal decision](https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260610-hexagonal-core-ports-adapters.html))
 and the [combat hexagon decision](https://v-sekai-multiplayer-fabric.github.io/manuals/decisions/20260611-hexagon-combat-core.html).
 
