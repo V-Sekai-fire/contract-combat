@@ -10,11 +10,11 @@ The core resolves combo timing, hit validation, the enemy spawn-invulnerability 
 
 ```sh
 cd core
-lake build
+lake build combat_demo
 lake exe combat_emit
 ```
 
-`lake build` checks the fixtures and properties; `combat_emit` writes the recorded trace.
+Building `combat_demo` checks the fixtures and properties. `combat_emit` writes the recorded trace to `core/build/combat_golden.csv`; the adapter replays its committed copy in `adapters/godot/combat_golden.csv`, so a new trace is copied there.
 
 ## Licence
 
