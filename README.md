@@ -18,4 +18,4 @@ Building `combat_demo` checks the fixtures and properties. `combat_emit` writes 
 
 ## Licence
 
-The licence is not stated.
+MIT. See [LICENSE](LICENSE).
